@@ -1,0 +1,101 @@
+body{
+	background-color:lightblue;
+	width:800px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+a:link{
+		color:White;
+	}
+a:visited{
+	color:Black;
+}
+a:hover{
+	color:Grey;
+}
+
+.header{
+	background-color:SteelBlue;
+	width:742px;
+	padding:4px;
+	border:5px solid RoyalBlue;
+	margin:20px auto 20px auto;
+}
+
+.TopLinkBar{
+	background-color:SteelBlue;
+	width:654px;
+	padding:5px;
+	border:none;
+	margin:20px auto 20px auto;
+	
+}
+
+.QuickLinks{
+	background-color:SteelBlue;
+	border:1px solid RoyalBlue;
+	float:left;
+	width:126px;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin-left:22px;
+	margin-right:16px;
+}
+
+ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+.TutorInfo{
+	background-color:SteelBlue;
+	float:left;
+	width:416px;
+	margin-left:16px;
+	margin-right:16px;
+}
+
+#tutors, #tutors th, #tutors td{
+	width:416px;
+	border-collapse:collapse;
+	border:1px solid black;
+}
+
+#tutors tr.alt td {
+    background-color:CadetBlue;
+}
+
+.LoginNews{
+	background-color:SteelBlue;
+	border:1px solid RoyalBlue;
+	float:left;
+	width:126px;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin-left:16px;
+	margin-right:22px;
+}
+
+.Login{
+	background-color:SteelBlue;
+	border:1px solid RoyalBlue;
+	/*float:left;*/
+	width:126px;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin-left:16px;
+	margin-right:22px;
+}
+
+.News{
+	background-color:SteelBlue;
+	border:1px solid RoyalBlue;
+	/*float:left;*/
+	width:126px;
+	padding-top:5px;
+	padding-bottom:5px;
+	margin-left:16px;
+	margin-right:22px;
+}

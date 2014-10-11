@@ -49,8 +49,9 @@ ul{
 	padding:0;
 }
 
-.TutorInfo{
+.MiddleBox{
 	background-color:SteelBlue;
+	border:1px solid RoyalBlue;
 	float:left;
 	width:416px;
 	margin-left:16px;
@@ -78,8 +79,7 @@ ul{
 	margin-right:22px;
 }
 
-.Login{
-	background-color:SteelBlue;
+#LoginNews .Login{
 	border:1px solid RoyalBlue;
 	/*float:left;*/
 	width:126px;
@@ -89,8 +89,7 @@ ul{
 	margin-right:22px;
 }
 
-.News{
-	background-color:SteelBlue;
+#LoginNews .News{
 	border:1px solid RoyalBlue;
 	/*float:left;*/
 	width:126px;

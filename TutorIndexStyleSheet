@@ -1,0 +1,4 @@
+#MiddleBox .TutorHours{
+	width:208px;
+	float:left;
+}

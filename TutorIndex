@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+<link rel="stylesheet" href="IndexStyleSheet.css">
+<link rel="stylesheet" href="TutorIndexStyleSheet.css">
+<TITLE>Tutors-Westminster College Tutors</TITLE>
+</HEAD>
+
+<BODY>
+	<div class="header">
+	<h1><center>Westminster College Tutors</center></h1>
+	</div>
+	<div class="TopLinkBar">
+		<table>
+			<tr>
+				<td><a href="http://www.westminster-mo.edu">WestMO</a></td>
+				<td style="width:504px"></td>
+				<td><a href="">Contact Us</a></td>
+			</tr>
+		</table>	
+	</div>
+	<div class="QuickLinks">
+		<center><ul>
+			<li><b>Quick Links</b></li>
+			<li><a href="http://www.westminster-mo.edu/Pages/default.aspx">WestMO College</a></li>
+			<li><a href="https://mywc.westminster-mo.edu/ics">MyWC</a></li>
+			<li><a href="http://moodle2.westminster-mo.edu/">Moodle</a></li>
+		</ul></center>
+	</div>
+	<div class="MiddleBox">
+		<div class="TutorHours">
+			<center>Input Hours</center>
+			<BR>Hours worked
+		</div>
+	</div>
+	<div class="LoginNews">
+		<div class="News">
+			News
+		</div>
+	</div>
+</BODY>
+</HTML>

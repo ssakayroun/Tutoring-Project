@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <HTML>
 <HEAD>
-<link rel="stylesheet" href="Index.css">
-<link rel="stylesheet" href="TutorIndex.css">
+<link rel="stylesheet" href="..\css\Index.css">
+<link rel="stylesheet" href="..\css\TutorIndex.css">
 <TITLE>Tutors-Westminster College Tutors</TITLE>
 </HEAD>
 
@@ -29,8 +29,28 @@
 	</div>
 	<div class="MiddleBox">
 		<div class="TutorHours">
-			<center>Input Hours</center>
-			<BR>Hours worked
+			<form action="" method="post">
+				<fieldset>
+					<legend>Input Hours</legend>
+					<label>Hours worked:
+					<input type="text" name="HoursWorked" maxlength="2"></label><br>
+					<label><input type="submit" name="HoursSubmit" value="Submit"></label>
+				</fieldset>
+			</form>
+		</div>
+		<div class="StudentInput">
+			<form action="" method="post">
+				<fieldset>
+					<legend>Input Students</legend>
+					<label>Student Name:
+					<input type="text" name="StudentInput"></label>
+					<!--<label><textarea name="StudentReason">Reason for visit</textarea></label>
+					<label>Does the student give release permission?<br>
+					<input type="checkbox" name="PermissionsY">Yes
+					<input type="checkbox" name="PermissionN">No<br>-->
+					<label><input type="submit" name="StudentSubmit" value="Submit"></label>
+				</fieldset>
+			</form>
 		</div>
 	</div>
 	<div class="LoginNews">

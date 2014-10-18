@@ -89,6 +89,12 @@ ul{
 	margin-right:22px;
 }
 
+fieldset{
+	width:126px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
 #LoginNews .News{
 	border:1px solid RoyalBlue;
 	/*float:left;*/

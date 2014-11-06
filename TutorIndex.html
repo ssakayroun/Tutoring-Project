@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <HTML>
 <HEAD>
-<link rel="stylesheet" href="..\css\Index.css">
-<link rel="stylesheet" href="..\css\TutorIndex.css">
+<link rel="stylesheet" href="../css/Index.css">
+<link rel="stylesheet" href="../css/TutorIndex.css">
 <TITLE>Tutors-Westminster College Tutors</TITLE>
 </HEAD>
 
@@ -32,8 +32,12 @@
 			<form action="" method="post">
 				<fieldset>
 					<legend>Input Hours</legend>
-					<label>Hours worked:
-					<input type="text" name="HoursWorked" maxlength="2"></label><br>
+					<label>Date worked:<br>
+					<input type="date" name="DateWorked" required></label><br>
+					<label>Start Time:<br>
+					<input type="time" name="StartTime" required></label><br>
+					<label>End Time:<br>
+					<input type="time" name="EndTime" required></label><br>
 					<label><input type="submit" name="HoursSubmit" value="Submit"></label>
 				</fieldset>
 			</form>
@@ -42,12 +46,10 @@
 			<form action="" method="post">
 				<fieldset>
 					<legend>Input Students</legend>
-					<label>Student Name:
-					<input type="text" name="StudentInput"></label>
-					<!--<label><textarea name="StudentReason">Reason for visit</textarea></label>
-					<label>Does the student give release permission?<br>
-					<input type="checkbox" name="PermissionsY">Yes
-					<input type="checkbox" name="PermissionN">No<br>-->
+					<label>First Name:
+					<input type="text" name="StudentName" required></label>
+					<label>Surname:
+					<input type="text" name="StudentSurname" required></label>
 					<label><input type="submit" name="StudentSubmit" value="Submit"></label>
 				</fieldset>
 			</form>

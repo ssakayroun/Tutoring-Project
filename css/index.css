@@ -89,6 +89,21 @@ ul{
 	margin-right:22px;
 }
 
+fieldset{
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+input{
+	width:90px;
+	background-color:lightblue;
+}
+
+input[type=submit]{
+	width:75px;
+	float:right;
+}
+
 #LoginNews .News{
 	border:1px solid RoyalBlue;
 	/*float:left;*/

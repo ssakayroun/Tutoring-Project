@@ -1,7 +1,10 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <HTML>
 <HEAD>
-<link rel="stylesheet" href="Index.css">
+<link rel="stylesheet" href="css/Index.css">
 <TITLE>Home-Westminster College Tutors</TITLE>
 </HEAD>
 
@@ -41,10 +44,16 @@
 	</div>
 	<div class="LoginNews">
 		<div class="Login">
-			<center>Login</center>
-			<br>Username:
-			<br>Password:
-			<br>Submit
+		<form action="" method="post">
+			<fieldset>
+				<legend>Login</legend>
+				<label>Username:<br>
+				<input type="text" name="username"></label><br>
+				<label>Password:<br>
+				<input type="password" name="password"></label><br>
+				<label><input type="submit" name="login" value="Login"></label>
+			</fieldset>
+		</form>
 		</div>
 		<hr color = "RoyalBlue" size ="1">
 		<div class="News">

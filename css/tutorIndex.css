@@ -1,0 +1,23 @@
+#MiddleBox .TutorHours{
+	width:208px;
+	float:left;
+}
+
+#MiddleBox .StudentInput{
+	width:208px;
+	float:left;
+}
+
+fieldset{
+	width:175px;
+	float:left;
+}
+
+input[type=text]{
+	width:170px;
+	background-color:lightblue;
+}
+input[type=date]{
+	width:125px;
+	background-color:lightblue;
+}

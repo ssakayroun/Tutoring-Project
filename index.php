@@ -44,7 +44,7 @@ session_start();
 	</div>
 	<div class="LoginNews">
 		<div class="Login">
-		<form action="" method="post">
+		<form action="ppages/p_index.php" method="post">
 			<fieldset>
 				<legend>Login</legend>
 				<label>Username:<br>

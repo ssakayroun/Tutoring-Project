@@ -1,5 +1,7 @@
 <?php
 session_start();
+$_SESSION['login']=NULL;
+$_SESSION['status']=NULL;
 ?>
 <!DOCTYPE html>
 <HTML>

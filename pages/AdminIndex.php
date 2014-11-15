@@ -32,18 +32,7 @@ session_start();
 	</div>
 	<div class="MiddleBox">
 		<div class="TutorHours">
-			<form action="" method="post">
-				<fieldset>
-					<legend>Input Hours</legend>
-					<label>Date worked:<br>
-					<input type="date" name="DateWorked" required></label><br>
-					<label>Start Time:<br>
-					<input type="time" name="StartTime" required></label><br>
-					<label>End Time:<br>
-					<input type="time" name="EndTime" required></label><br>
-					<label><input type="submit" name="HoursSubmit" value="Submit"></label>
-				</fieldset>
-			</form>
+			<h1>ADMIN PAGE UNDER CONSTRUCTION</h1>
 		</div>
 		<div class="StudentInput">
 			<form action="" method="post">

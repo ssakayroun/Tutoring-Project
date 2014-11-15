@@ -2,17 +2,18 @@
 session_start();
 $_SESSION['login']=NULL;
 $_SESSION['status']=NULL;
+$_SESSION['error']="";
 ?>
 <!DOCTYPE html>
 <HTML>
 <HEAD>
 <link rel="stylesheet" href="css/Index.css">
-<TITLE>Westminster College Tutors</TITLE>
+<TITLE>Home-Westminster College Tutors</TITLE>
 </HEAD>
 
 <BODY>
 	<div class="header">
-	<h1><center>HOME-Westminster College Tutors</center></h1>
+	<h1><center>Westminster College Tutors</center></h1>
 	</div>
 	<div class="TopLinkBar">
 		<table>
@@ -54,6 +55,8 @@ $_SESSION['status']=NULL;
 				<label>Password:<br>
 				<input type="password" name="password"></label><br>
 				<label><input type="submit" name="login" value="Login"></label>
+				<br/>
+				
 			</fieldset>
 		</form>
 		</div>

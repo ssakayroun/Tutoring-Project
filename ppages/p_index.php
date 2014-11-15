@@ -28,9 +28,14 @@ else
 			$_SESSION['status'] = "administrator"; 
 			echo "The dude is an admin";
 			$result->free();
+			header('location:../pages/AdminIndex.php');
 		}
+		else
+		{
+			$_SESSION['error']="Error ocurred";//error code is sent back to index page
 		
-		//Two different or else possibilities are:wrong password or not active admin account
+		}
+		//Two different or else possibilities are:wrong password or not active admin account(active 0)
 	}
 	else//User is not in the administrator table
 	{
@@ -45,12 +50,13 @@ else
 				$_SESSION['login']= $_POST['username'];
 				$_SESSION['status'] = "tutor"; 
 				echo "The dude is a tutor";
+				header('location:../pages/TutorIndex.php');
+				
 			}
-		}
+			//else User's password is perhaps wrong 
+		}//Else User is not in tutor table
+		
 	}
 }
-
-
-
 
 ?>

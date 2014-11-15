@@ -32,7 +32,7 @@ else
 		}
 		else
 		{
-			$_SESSION['error']="Error ocurred";//error code is sent back to index page
+			$_SESSION['error']="Error";//error code is sent back to index page
 		
 		}
 		//Two different or else possibilities are:wrong password or not active admin account(active 0)

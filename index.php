@@ -12,7 +12,7 @@ $_SESSION['status']=NULL;
 
 <BODY>
 	<div class="header">
-	<h1><center>Westminster College Tutors</center></h1>
+	<h1><center>HOME-Westminster College Tutors</center></h1>
 	</div>
 	<div class="TopLinkBar">
 		<table>

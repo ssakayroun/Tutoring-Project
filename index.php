@@ -7,7 +7,7 @@ $_SESSION['status']=NULL;
 <HTML>
 <HEAD>
 <link rel="stylesheet" href="css/Index.css">
-<TITLE>Westminster College Tutors</TITLE>
+<TITLE>Home-Westminster College Tutors</TITLE>
 </HEAD>
 
 <BODY>

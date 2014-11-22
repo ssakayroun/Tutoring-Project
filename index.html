@@ -42,13 +42,15 @@
 	</div>
 	<div class="LoginNews">
 		<div class="Login">
-		<form action="p_Index.php" method="post">
+		<form id="LoginForm" action="p_Index.php" method="post">
 			<fieldset>
 				<legend>Login</legend>
 				<label>Username:<br>
-				<input type="text" name="username"></label><br>
+				<input type="text" id="username"></label><br>
+				<div id="Usernamefeedback"></div>
 				<label>Password:<br>
-				<input type="password" name="password"></label><br><br>
+				<input type="password" id="password"></label><br>
+				<div id="Passwordfeedback"></div>
 				<label><input type="submit" name="login" value="Login"></label>
 			</fieldset>
 		</form>
@@ -59,5 +61,6 @@
 		</div>
 	</div>
 	</div>
+	<script type="text/javascript" src="scripts/formValidation.js"></script>
 </BODY>
 </HTML>

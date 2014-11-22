@@ -15,6 +15,11 @@ a:hover{
 	color:Grey;
 }
 
+.invalid{
+	color:black;
+	background-color:#B00000;
+}
+
 .background{
 	width:800px;
 	height:1200px;

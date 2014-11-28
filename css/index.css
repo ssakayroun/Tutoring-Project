@@ -1,5 +1,5 @@
 body{
-	background-color:lightblue;
+	background-color:CadetBlue;
 	width:800px;
 	margin-left:auto;
 	margin-right:auto;
@@ -15,6 +15,18 @@ a:hover{
 	color:Grey;
 }
 
+.invalid{
+	color:black;
+	background-color:#B00000;
+}
+
+.background{
+	width:800px;
+	height:1200px;
+	padding-top:10px;
+	background-color:LightBlue;
+}
+
 .header{
 	background-color:SteelBlue;
 	width:742px;
@@ -27,9 +39,12 @@ a:hover{
 	background-color:SteelBlue;
 	width:654px;
 	padding:5px;
-	border:none;
+	border:1px solid RoyalBlue;
 	margin:20px auto 20px auto;
-	
+}
+
+#TopLinkBar .Link{
+	background-color:CadetBlue;
 }
 
 .QuickLinks{

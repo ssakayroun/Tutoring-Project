@@ -1,11 +1,10 @@
 <?php
 
-
-extract($POST);
+extract($_POST);
 
 require ("connex.php");
-	
-echo "It works";
+
+
 	
 
 

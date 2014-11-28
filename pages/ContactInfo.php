@@ -1,31 +1,33 @@
 <?php
-session_start();
+session_start()
+
 ?>
+
 <!DOCTYPE html>
 <HTML>
 <HEAD>
-<link rel="stylesheet" href="css/Index.css">
-<TITLE>Home-Westminster College Tutors</TITLE>
+<link rel="stylesheet" href="../css/Index.css">
+<link rel="stylesheet" href="../css/ContactInfo.css">
+<TITLE>Contact Us-Westminster College Tutors</TITLE>
 </HEAD>
 
 <BODY>
-	<div class="background">
-	<div class="header">
-	<h1><center><a href="index.php">Westminster College Tutors</a></center></h1>
+<div class="header">
+	<h1><center><a href="../index.php">Westminster College Tutors</a></center></h1>
 	</div>
 	<div class="TopLinkBar">
 		<table>
 			<tr>
 				<td><a href="<?php 
 					if($_SESSION['status']== "administrator" )
-					        echo "http://www.westminster-mo.edu";
+					        echo "AdminIndex.php";
 					else if($_SESSION['status']=="tutor")
-							echo "www.facebook.com";
+							echo "TutorIndex.php";
 					else
 						echo "www.westminster-mno.edu";
 							?>">Home Page</a></td>
 				<td style="width:504px"></td>
-				<td><a href="pages/ContactInfo.php">Contact Us</a></td>
+				<td><a href="ContactInfo.php">Contact Us</a></td>
 			</tr>
 		</table>	
 	</div>
@@ -38,26 +40,27 @@ session_start();
 		</ul></center>
 	</div>
 	<div class="MiddleBox">
-		<table id="tutors">
-			<tr>
-				<td>Course Code</td>
-				<td>Class Name</td>
-				<td>Tutor Name</td>
-				<td>Hours</td>
-			</tr>
-			<tr class="alt"><td>code</td><td>class</td><td>tutor</td><td>time</td></tr>
-			<tr><td>code</td><td>class</td><td>tutor</td><td>time</td></tr>
-			<tr class="alt"><td>code</td><td>class</td><td>tutor</td><td>time</td></tr>
-		</table>
+		<div class="ContactUs">
+		<h4><center>Contact Us</center></h4>
+		<form action="p_ContactInfo.php" method="post">
+			<label>First Name: <br>
+			<input type="text" name="FirstName"></label><br>
+			<label>Last Name: <br>
+			<input type="text" name="LastName"></label><br><br>
+			<label>
+			<textarea name="Comments" placeholder="Enter your comments..."></textarea></label><br>
+			<label><input type="submit" name="ContactSubmit" value="Submit"></label>
+		</form>
+		</div>
 	</div>
 	<div class="LoginNews">
 	<?php 
 		if($_SESSION['status']=="visitor") //we check if the person is logged in or not
 		{
-			include('pages/login.html');
+			include('../pages/login.html');
 		} else 
 		{
-			include('pages/Logout.php');
+			include('../pages/Logout.php');
 		} 
 		?>
 		<hr color = "RoyalBlue" size ="1">
@@ -65,7 +68,5 @@ session_start();
 			News
 		</div>
 	</div>
-	</div>
-	<script type="text/javascript" src="scripts/formValidation.js"></script>
 </BODY>
 </HTML>
